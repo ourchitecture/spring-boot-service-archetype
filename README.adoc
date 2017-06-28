@@ -12,6 +12,8 @@ toc::[]
 
 `./mvnw clean install archetype:integration-test`
 
+Travis CI will automatically deploy to PackageCloud.
+
 == Resources
 
 * https://maven.apache.org/guides/mini/guide-creating-archetypes.html[Archetype Guide]
