@@ -1,0 +1,26 @@
+:hide-uri-scheme:
+
+= Ourchitecture Spring Boot Service Template Maven Archetype
+Ourchitecture Open Source
+:toc: macro
+
+A template for generating Spring Boot microservices using Maven Archetypes.
+
+toc::[]
+
+== Getting Started
+
+`./mvnw clean install archetype:integration-test`
+
+== Resources
+
+* https://maven.apache.org/guides/mini/guide-creating-archetypes.html[Archetype Guide]
+* https://stackoverflow.com/questions/6714833/how-do-i-make-my-archetype-from-a-multimodule-project-use-directories-that-are-b[Use of rootArtifactId in multi-module]
+* http://marosmars.weebly.com/blog/maven-archetype-tutorial[Maven Archetype Tutorial]
+* https://maven.apache.org/archetype/maven-archetype-plugin/examples/generate-batch.html[Automatically generating Maven projects (i.e. non-interactive)]
+* https://code.google.com/archive/p/open-archetypes/source/default/source[Maven Archtype Example]
+
+_TIP: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer's Guide]_
+_TIP: http://asciidoctor.org/docs/convert-asciidoc-to-pdf/[Converting AsciiDoc to PDF]_
+
+MIT License, Open Source, Ourchitecture

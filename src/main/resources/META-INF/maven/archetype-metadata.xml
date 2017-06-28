@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="basic">
+  <requiredProperties>
+  
+    <requiredProperty key="groupId" />
+    <requiredProperty key="artifactId" />
+    <requiredProperty key="package" />
+    <requiredProperty key="version">
+      <defaultValue>0.1.0-SNAPSHOT</defaultValue>
+    </requiredProperty>
+
+    <requiredProperty key="title" />
+    <requiredProperty key="description" />
+    <requiredProperty key="url" />
+    <requiredProperty key="year">
+      <defaultValue>2017</defaultValue>
+    </requiredProperty>
+
+    <requiredProperty key="spring-boot-version">
+      <defaultValue>1.5.4.RELEASE</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="java-version">
+      <defaultValue>1.8</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="git-commit-id-plugin-version">
+      <defaultValue>2.2.1</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="maven-repository-url" />
+  </requiredProperties>
+
+  <fileSets>
+
+    <fileSet filtered="false" packaged="false" encoding="UTF-8">
+      <directory />
+      <includes>
+          <include>.gitignore</include>
+          <include>mvnw</include>
+          <include>mvnw.cmd</include>
+          <include>.mvn/**/*.*</include>
+          <include>.vscode/**/*.*</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+      <directory />
+      <includes>
+          <include>README.adoc</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+      <directory>domain</directory>
+      <includes>
+          <include>pom.xml</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>domain/src/main/java</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>domain/src/test/java</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+      <directory>infrastructure</directory>
+      <includes>
+          <include>pom.xml</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>infrastructure/src/main/java</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>infrastructure/src/test/java</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+      <directory>presentation</directory>
+      <includes>
+          <include>pom.xml</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>presentation/src/main/java</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>presentation/src/test/java</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+      <directory>host</directory>
+      <includes>
+          <include>pom.xml</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="false" packaged="false" encoding="UTF-8">
+      <directory>host/src/main/resources</directory>
+      <includes>
+        <include>**/*.ico</include>
+        <include>**/*.jpg</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+      <directory>host/src/main/resources</directory>
+      <includes>
+        <include>**/*.yml</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>host/src/main/java</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>host/src/test/java</directory>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>

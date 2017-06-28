@@ -1,0 +1,13 @@
+server:
+  port: ${port:8080}
+
+logging:
+  level:
+    ourchitecture.spring.boot.services.test: DEBUG
+
+info:
+  build:
+    artifact: '@project.artifactId@'
+    name: '@project.name@'
+    description: '@project.description@'
+    version: '@project.version@'

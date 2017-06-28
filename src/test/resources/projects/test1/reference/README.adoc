@@ -1,0 +1,23 @@
+:hide-uri-scheme:
+
+= Test Service
+Ourchitecture Open Source
+:toc: macro
+
+https://github.com/ourchitecture
+Testing Spring Boot Service Template
+
+toc::[]
+
+== Resources
+
+* http://tidyjava.com/layered-architecture-good/[Layered Architecture] _Note:_ The "drawback" of "No dependency inversion" has been addressed.
+* https://spring.io/guides/gs/multi-module/[Multi-Module Projects]
+* https://maven.apache.org/pom.html#Aggregation[Maven Aggregation]
+* https://maven.apache.org/guides/mini/guide-multiple-modules.html[Maven Multi-Module Guide]
+* https://github.com/ktoso/maven-git-commit-id-plugin[Maven Git Info]
+
+_TIP: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer's Guide]_
+_TIP: http://asciidoctor.org/docs/convert-asciidoc-to-pdf/[Converting AsciiDoc to PDF]_
+
+MIT License, Open Source, Ourchitecture
