@@ -11,4 +11,25 @@
 		<archetype.test.ignoreEOLStyle>true</archetype.test.ignoreEOLStyle>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<build>
+		<extensions>
+			<extension>
+			<groupId>io.packagecloud.maven.wagon</groupId>
+			<artifactId>maven-packagecloud-wagon</artifactId>
+			<version>0.0.4</version>
+			</extension>
+		</extensions>
+	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>packagecloud-ourchitecture</id>
+			<url>packagecloud+https://packagecloud.io/ourchitecture/maven/ourchitecture-spring-boot-starter-microservice</url>
+		</repository>
+		<snapshotRepository>
+			<id>packagecloud-ourchitecture</id>
+			<url>packagecloud+https://packagecloud.io/ourchitecture/maven/ourchitecture-spring-boot-starter-microservice</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
