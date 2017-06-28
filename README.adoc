@@ -12,6 +12,8 @@ toc::[]
 
 `./mvnw clean install archetype:integration-test`
 
+`mvn deploy` _Note:_ Requires credentials in `settings.xml` for your local Maven installation and does not use the Maven wrapper file.
+
 Travis CI will automatically deploy to PackageCloud.
 
 == Resources

@@ -25,11 +25,11 @@
 	<distributionManagement>
 		<repository>
 			<id>packagecloud-ourchitecture</id>
-			<url>packagecloud+https://packagecloud.io/ourchitecture/maven/ourchitecture-spring-boot-starter-microservice</url>
+			<url>packagecloud+https://packagecloud.io/ourchitecture/maven</url>
 		</repository>
 		<snapshotRepository>
 			<id>packagecloud-ourchitecture</id>
-			<url>packagecloud+https://packagecloud.io/ourchitecture/maven/ourchitecture-spring-boot-starter-microservice</url>
+			<url>packagecloud+https://packagecloud.io/ourchitecture/maven</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
